@@ -1,0 +1,20 @@
+[
+    {
+        "sender": "alert@paypal-security-check.com",
+        "subject": "Urgent: Your account has been limited",
+        "body": "Dear User, we noticed unusual activity properly verify your account immediately at http://paypal-secure-verify.com otherwise we will lock it.",
+        "label": "phishing"
+    },
+    {
+        "sender": "no-reply@amazon.com",
+        "subject": "Your Amazon.com order #123-4567890-1234567",
+        "body": "Hi John, your package has shipped! Track it here: https://amazon.com/track-package",
+        "label": "legitimate"
+    },
+    {
+        "sender": "ceo@company-urgent-wire.com",
+        "subject": "Wire Transfer Needed ASAP",
+        "body": "I am in a meeting. Please wire $50,000 to this vendor immediately. I will explain later.",
+        "label": "phishing"
+    }
+]
